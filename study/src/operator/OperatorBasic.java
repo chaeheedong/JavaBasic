@@ -1,4 +1,4 @@
-package oerator;
+package operator;
 
 public class OperatorBasic {
 
