@@ -9,7 +9,6 @@
 - AssertJ, Hamcrest Lib 추가
 - Annotation
 - LifeCycle
-- 구구단 예제
 
 ---
 
