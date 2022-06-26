@@ -41,10 +41,10 @@ class finalBasicClass {
         return str;
     }
 
-    public void setStr(String str) {
+//    public void setStr(String str) {
         // final 필드 변수는 값을 수정할 수 없음
-        this.str = str;
-    }
+//        this.str = str;
+//    }
 }
 
 
@@ -52,14 +52,14 @@ class finalOtherClass extends finalBasicClass {
 
 //    @Override
 //    void print() {
-        // 오버라이딩 불가능
+        // final 메서드는 오버라이딩 불가능
 //    }
 }
 
 
 abstract class abstractClass {
 
-    // 필수로 선언해야 할 메서드
+    // 필수로 선언해야 할 메서드 서술
     abstract void sonata();
 }
 
