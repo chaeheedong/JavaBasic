@@ -18,16 +18,16 @@ package subclasses;
 // =============================================================================
 
 // final class
-final class finalClass {
+final class FinalClass {
 
 }
 
 
 // final 클래스는 상속 불가
-//class basicClass extends finalClass { }
+//class BasicClass extends FinalClass { }
 
 
-class finalBasicClass {
+class FinalBasicClass {
 
     // final 필드 변수
     final String str = "Hello Final!";
@@ -48,7 +48,7 @@ class finalBasicClass {
 }
 
 
-class finalOtherClass extends finalBasicClass {
+class FinalOtherClass extends FinalBasicClass {
 
 //    @Override
 //    void print() {
@@ -57,7 +57,7 @@ class finalOtherClass extends finalBasicClass {
 }
 
 
-abstract class abstractClass {
+abstract class AbstractClass {
 
     // 필수로 선언해야 할 메서드 서술
     abstract void sonata();
@@ -65,7 +65,7 @@ abstract class abstractClass {
 
 
 // 부모 클래스
-class Foo extends abstractClass {
+class Foo extends AbstractClass {
 
     public int parentAvgTall;   // 부모님의 평균 키
     public int parentAvgWeight; // 부모님의 평균 몸무게
